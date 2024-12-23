@@ -69,12 +69,6 @@ export default function HeroSection() {
       {modalVisible && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-10 rounded-lg shadow-lg w-96 relative">
-            <button
-              className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-2xl"
-              onClick={onClose}
-            >
-              <X className="w-6 h-6" />
-            </button>
             <h2 className="text-2xl font-bold mb-6 text-purple-600 flex items-center gap-2">
               <CreditCard className="w-6 h-6 text-purple-500" />
               Account Details
