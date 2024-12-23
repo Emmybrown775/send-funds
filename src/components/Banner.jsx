@@ -86,10 +86,10 @@ export default function HeroSection() {
                   <p className="text-gray-700">Account Number:</p>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-medium">9163169949</span>
+                  <span className="font-medium">2304446694</span>
                   <button
                     className="text-purple-600 hover:text-purple-700"
-                    onClick={() => copyToClipboard("9163169949")}
+                    onClick={() => copyToClipboard("2304446694")}
                   >
                     <Copy className="w-5 h-5" />
                   </button>
@@ -101,7 +101,7 @@ export default function HeroSection() {
                   <p className="text-gray-700">Bank Name:</p>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-medium">Opay</span>
+                  <span className="font-medium">UBA</span>
                   <button
                     className="text-purple-600 hover:text-purple-700"
                     onClick={() => copyToClipboard("Opay")}
@@ -114,7 +114,7 @@ export default function HeroSection() {
                 <div className="flex items-center justify-between gap-2">
                   <User className="w-5 h-5 text-gray-500" />
                   
-                  <span className="font-medium">Robinson Honour</span>
+                  <span className="font-medium">Praise Okere</span>
                   <button
                     className="text-purple-600 hover:text-purple-700"
                     onClick={() => copyToClipboard("Robinson Honour")}
